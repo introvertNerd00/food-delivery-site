@@ -4,7 +4,7 @@ const HeadlineCards = () => {
   return (
     <div className='max-w-[1640] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6' >
         {/* <div className="card" */}
-        <div className='rounded-xl relative'>
+        <div className='rounded-xl relative hover:scale-105 duration-300'>
             {/* <div className="card-overlay"> */}
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white '>
                 <p className="card-title font-bold text-2xl px-2 pt-4 ">Sun's Out, BOGO's Out</p>
@@ -15,7 +15,7 @@ const HeadlineCards = () => {
         </div>
 
            {/* <div className="card" */}
-           <div className='rounded-xl relative'>
+           <div className='rounded-xl relative hover:scale-105 duration-300'>
             {/* <div className="card-overlay"> */}
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white '>
                 <p className="card-title font-bold text-2xl px-2 pt-4 ">New Resturants</p>
@@ -26,7 +26,7 @@ const HeadlineCards = () => {
         </div>
 
            {/* <div className="card" */}
-           <div className='rounded-xl relative'>
+           <div className='rounded-xl relative hover:scale-105 duration-300'>
             {/* <div className="card-overlay"> */}
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white '>
                 <p className="card-title font-bold text-2xl px-2 pt-4 ">We deliver Desserts Too</p>
